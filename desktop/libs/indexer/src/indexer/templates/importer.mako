@@ -618,7 +618,7 @@ ${ assist.assistPanel() }
                 ${ _('Empty name') }
               <!-- /ko -->
             </span>
-            <span class="help-inline muted" data-bind="visible: isTargetExisting() && outputFormat() != 'altus' && $parent.createWizard.source.inputFormat() !== 'rdbms' ">
+            <span class="help-inline muted" data-bind="visible: isTargetExisting() && outputFormat() != 'altus'">
               <i class="fa fa-warning" style="color: #c09853"></i> ${ _('Already existing') } <span data-bind="text: outputFormat"></span>
               <a href="javascript:void(0)" data-bind="hueLink: existingTargetUrl(), text: name" title="${ _('Open') }"></a>
             </span>
